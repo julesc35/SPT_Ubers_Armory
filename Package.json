@@ -1,0 +1,13 @@
+{
+  "name": "Uber's Armory",
+  "author": "Uberpony",
+  "version": "1.0.0",
+  "license": "MIT",
+  "sptVersion": "~4.0.12",
+  "main": "UbersArmory.dll",
+  "isBundleMod": false,
+  "dependencies": {
+    "com.wtt.commonlib": "~2.0.15",
+    "com.wtt.contentbackport": "~1.0.4"
+  }
+}

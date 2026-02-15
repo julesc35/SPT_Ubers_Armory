@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <RootNamespace>UbersArmory</RootNamespace>
+	<AssemblyName>UbersArmory</AssemblyName>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Version>0.0.1</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SPTarkov.Server.Core" Version="4.0.12" />
+	  <PackageReference Include="WTT-ServerCommonLib" Version="2.0.15" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="package.json" Pack="true" />
+  </ItemGroup>
+</Project>
