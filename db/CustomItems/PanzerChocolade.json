@@ -6,11 +6,16 @@
 
     "overrideProperties": {
       "BackgroundColor": "blue",
-      "CanRequireOnRagfair": false,
-      "CanSellOnRagfair": false,
-      "medUseTime": 2,
+      "CanRequireOnRagfair": true,
+      "CanSellOnRagfair": true,
+      "medUseTime": 1,
       "MaxHpResource": 1,
       "RarityPvE": "rare",
+      "effects_health": {
+        "Energy": {
+          "value": 60
+        }
+      },
 
       "StimulatorBuffs": "PanzerChocolade"
     },
@@ -54,10 +59,6 @@
       {
         "probability": 2600,
         "containerName": "LOOTCONTAINER_DEAD_SCAV"
-      },
-      {
-        "probability": 2600,
-        "containerName": "LOOTCONTAINER_BURRIED_BARREL_CACHE"
       },
       {
         "probability": 2600,

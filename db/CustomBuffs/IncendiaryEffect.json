@@ -1,10 +1,10 @@
 {
-  "FrenchRation": [
+  "Test": [
     {
-      "BuffType": "StaminaRate",
+      "BuffType": "LethalToxin",
       "Chance": 1,
-      "Delay": 1,
-      "Duration": 300,
+      "Delay": 0,
+      "Duration": 10,
       "Value": 5,
       "AbsoluteValue": true,
       "SkillName": ""

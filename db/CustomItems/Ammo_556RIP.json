@@ -1,45 +1,47 @@
 {
-  "6991e48837322998115b4bbd": {
-    "itemTplToClone": "5c0d5ae286f7741e46554302",
+  "6993413e94183eca51706516": {
+    "itemTplToClone": "59e6918f86f7746c9f75e849",
     "parentId": "5485a8684bdc2da71d8b4567",
     "handbookParentId": "5b47574386f77428ca22b33b",
     "overrideProperties": {
       "BackgroundColor": "violet",
       "ammoAccr": -2,
-      "ammoRec": 22,
-      "ArmorDamage": 35,
+      "ammoRec": 5,
+      "ArmorDamage": 6,
       "Caliber": "Caliber556x45mm",
       "CanRequireOnRagfair": true,
       "CanSellOnRagfair": true,
-      "Damage": 56,
-      "DurabilityBurnModificator": 1.5,
+      "Damage": 75,
+      "DurabilityBurnModificator": 1.75,
       "ExaminedByDefault": true,
-      "FragmentationChance": 0.5,
-      "FragmentsCount": 0,
+      "FragmentationChance": 1.0,
+      "ProjectilesCount": 1,
+      "FragmentsCount": 15,
       "HeatFactor": 1.85,
-      "HeavyBleedingDelta": 0.1,
-      "InitialSpeed": 600,
+      "HeavyBleedingDelta": 0.60,
+      "InitialSpeed": 750,
       "LightBleedingDelta": 0.45,
       "MalfFeedChance": 0.012,
       "MalfMisfireChance": 0.15,
-      "MaxFragmentsCount": 5,
-      "MinFragmentsCount": 2,
+      "MaxFragmentsCount": 10,
+      "MinFragmentsCount": 6,
       "MisfireChance": 0.012,
       "PenetrationChanceObstacle": 0.22,
       "PenetrationDamageMod": 0.17,
       "PenetrationPower": 18,
-      "RicochetChance": 0.1,
-      "Tracer": true,
+      "RicochetChance": 0.3,
+      "Tracer": false,
       "TracerColor": "red"
+
     },
     "locales": {
       "en": {
-        "name": "5.56x45 mm Incendiary Round",
-        "shortName": "556I",
-        "description": "An Incendiary variant for the 556 round"
+        "name": "5.56x45 mm RIP round",
+        "shortName": "556RIP",
+        "description": "A RIP Variant round for the 556mm round"
       }
     },
-    "fleaPriceRoubles": 1950,
+    "fleaPriceRoubles": 2850,
     "handbookPriceRoubles": 1450,
     "addtoBots": true,
     "addCaliberToAllCloneLocations": true,
@@ -76,4 +78,4 @@
       }
     ]
   }
-  }
+}

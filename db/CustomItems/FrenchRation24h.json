@@ -6,11 +6,19 @@
 
     "overrideProperties": {
       "BackgroundColor": "blue",
-      "CanRequireOnRagfair": false,
-      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": true,
+      "CanSellOnRagfair": true,
       "medUseTime": 2,
       "MaxHpResource": 1,
       "RarityPvE": "rare",
+      "effects_health": {
+        "Energy": {
+          "value": 85
+        },
+        "Hydration": {
+          "value": 55
+        }
+      },
 
       "StimulatorBuffs": "FrenchRation"
     },
@@ -54,10 +62,6 @@
       {
         "probability": 2600,
         "containerName": "LOOTCONTAINER_DEAD_SCAV"
-      },
-      {
-        "probability": 2600,
-        "containerName": "LOOTCONTAINER_BURRIED_BARREL_CACHE"
       },
       {
         "probability": 2600,

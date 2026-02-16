@@ -38,8 +38,8 @@ public class UbersArmory(
 
 
         // Use WTT-CommonLib services
-        await wttCommon.CustomItemServiceExtended.CreateCustomItems(assembly);
-        await wttCommon.CustomBuffService.CreateCustomBuffs(assembly);
+        await wttCommon.CustomItemServiceExtended.CreateCustomItems(assembly, Path.Join("db", "CustomItems"));
+        await wttCommon.CustomBuffService.CreateCustomBuffs(assembly, Path.Join( "db", "CustomBuffs"));
 
         await Task.CompletedTask;
     }
