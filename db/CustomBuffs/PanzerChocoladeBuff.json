@@ -1,0 +1,103 @@
+{
+  "PanzerChocolade": [
+    {
+      "BuffType": "HydrationRate",
+      "Chance": 1,
+      "Delay": 1,
+      "Duration": 1,
+      "Value": 75,
+      "AbsoluteValue": true,
+      "SkillName": ""
+    },
+
+    {
+      "BuffType": "EnergyRate",
+      "Chance": 1,
+      "Delay": 1,
+      "Duration": 1,
+      "Value": 85,
+      "AbsoluteValue": true,
+      "SkillName": ""
+    },
+
+    {
+      "BuffType": "StaminaRate",
+      "Chance": 1,
+      "Delay": 1,
+      "Duration": 300,
+      "Value": 2,
+      "AbsoluteValue": true,
+      "SkillName": ""
+    },
+
+    {
+      "BuffType": "WeightLimit",
+      "Chance": 1,
+      "Delay": 1,
+      "Duration": 300,
+      "Value": 55,
+      "AbsoluteValue": true,
+      "SkillName": ""
+    },
+
+    {
+      "BuffType": "SkillRate",
+      "Chance": 1,
+      "Delay": 0,
+      "Duration": 300,
+      "Value": 30,
+      "AbsoluteValue": true,
+      "SkillName": "Strength"
+    },
+
+    {
+      "BuffType": "SkillRate",
+      "Chance": 1,
+      "Delay": 0,
+      "Duration": 300,
+      "Value": 30,
+      "AbsoluteValue": true,
+      "SkillName": "Attention"
+    },
+
+    {
+      "BuffType": "SkillRate",
+      "Chance": 1,
+      "Delay": 0,
+      "Duration": 300,
+      "Value": 30,
+      "AbsoluteValue": true,
+      "SkillName": "Perception"
+    },
+
+    {
+      "BuffType": "SkillRate",
+      "Chance": 1,
+      "Delay": 0,
+      "Duration": 300,
+      "Value": 30,
+      "AbsoluteValue": true,
+      "SkillName": "Endurence"
+    },
+
+    {
+      "BuffType": "MaxStamina",
+      "Chance": 1,
+      "Delay": 1,
+      "Duration": 300,
+      "Value": 25,
+      "AbsoluteValue": true,
+      "SkillName": ""
+    },
+
+    {
+      "BuffType": "HealthRate",
+      "Chance": 1,
+      "Delay": 1,
+      "Duration": 300,
+      "Value": -0.2,
+      "AbsoluteValue": true,
+      "SkillName": ""
+    }
+  ]
+}

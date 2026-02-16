@@ -1,0 +1,31 @@
+{
+  "FrenchRation": [
+    {
+      "BuffType": "HydrationRate",
+      "Chance": 1,
+      "Delay": 1,
+      "Duration": 1,
+      "Value": 75,
+      "AbsoluteValue": true,
+      "SkillName": ""
+    },
+    {
+      "BuffType": "EnergyRate",
+      "Chance": 1,
+      "Delay": 1,
+      "Duration": 1,
+      "Value": 85,
+      "AbsoluteValue": true,
+      "SkillName": ""
+    },
+    {
+      "BuffType": "StaminaRate",
+      "Chance": 1,
+      "Delay": 1,
+      "Duration": 300,
+      "Value": 3,
+      "AbsoluteValue": true,
+      "SkillName": ""
+    }
+  ]
+}

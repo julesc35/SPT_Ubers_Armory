@@ -1,0 +1,68 @@
+{
+  "69931cfd63c9ec19e4b3103d": {
+    "itemTplToClone": "590c5f0d86f77413997acfab",
+    "parentId": "5448e8d04bdc2ddf718b4569",
+    "handbookParentId": "5b47574386f77428ca22b336",
+
+    "overrideProperties": {
+      "BackgroundColor": "blue",
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": false,
+      "medUseTime": 2,
+      "MaxHpResource": 1,
+      "RarityPvE": "rare",
+
+      "StimulatorBuffs": "FrenchRation"
+    },
+
+    "locales": {
+      "en": {
+        "name": "French rations 24h'",
+        "shortName": "FrMRE",
+        "description": "A french MRE for 24 hours. It contain everythings you need to continue your missions this one have some wine and cigarettes in it"
+      }
+    },
+
+    "fleaPriceRoubles": 50220,
+    "handbookPriceRoubles": 120125,
+
+    "addtoBots": false,
+    "addtoModSlots": true,
+    "addtoStaticLootContainers": true,
+    "addtoTraders": true,
+    "staticLootContainers": [
+      {
+        "probability": 2600,
+        "containerName": "LOOTCONTAINER_RATION_SUPPLY_CRATE"
+      },
+      {
+        "probability": 2600,
+        "containerName": "LOOTCONTAINER_AIRDROP_MEDICAL_CRATE"
+      },
+      {
+        "probability": 2600,
+        "containerName": "LOOTCONTAINER_DUFFLE_BAG"
+      },
+      {
+        "probability": 2600,
+        "containerName": "LOOTCONTAINER_DUFFLE_BAG_ADV"
+      },
+      {
+        "probability": 2600,
+        "containerName": "LOOTCONTAINER_PMC_BODY"
+      },
+      {
+        "probability": 2600,
+        "containerName": "LOOTCONTAINER_DEAD_SCAV"
+      },
+      {
+        "probability": 2600,
+        "containerName": "LOOTCONTAINER_BURRIED_BARREL_CACHE"
+      },
+      {
+        "probability": 2600,
+        "containerName": "LOOTCONTAINER_MEDICAL_SUPPLY_CRATE"
+      }
+    ]
+  }
+}

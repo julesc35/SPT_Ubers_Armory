@@ -1,0 +1,68 @@
+{
+  "699322b0e235bbf684cabd05": {
+    "itemTplToClone": "57505f6224597709a92585a9",
+    "parentId": "5448e8d04bdc2ddf718b4569",
+    "handbookParentId": "5b47574386f77428ca22b336",
+
+    "overrideProperties": {
+      "BackgroundColor": "blue",
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": false,
+      "medUseTime": 2,
+      "MaxHpResource": 1,
+      "RarityPvE": "rare",
+
+      "StimulatorBuffs": "PanzerChocolade"
+    },
+
+    "locales": {
+      "en": {
+        "name": "Panzer Chocolade",
+        "shortName": "PzrChcld",
+        "description": "An old chocolate tabs from WWII, it's said that it can enhance your capacity at the cost of your health"
+      }
+    },
+
+    "fleaPriceRoubles": 45220,
+    "handbookPriceRoubles": 95125,
+
+    "addtoBots": false,
+    "addtoModSlots": true,
+    "addtoStaticLootContainers": true,
+    "addtoTraders": true,
+    "staticLootContainers": [
+      {
+        "probability": 2600,
+        "containerName": "LOOTCONTAINER_RATION_SUPPLY_CRATE"
+      },
+      {
+        "probability": 2600,
+        "containerName": "LOOTCONTAINER_AIRDROP_MEDICAL_CRATE"
+      },
+      {
+        "probability": 2600,
+        "containerName": "LOOTCONTAINER_DUFFLE_BAG"
+      },
+      {
+        "probability": 2600,
+        "containerName": "LOOTCONTAINER_DUFFLE_BAG_ADV"
+      },
+      {
+        "probability": 2600,
+        "containerName": "LOOTCONTAINER_PMC_BODY"
+      },
+      {
+        "probability": 2600,
+        "containerName": "LOOTCONTAINER_DEAD_SCAV"
+      },
+      {
+        "probability": 2600,
+        "containerName": "LOOTCONTAINER_BURRIED_BARREL_CACHE"
+      },
+      {
+        "probability": 2600,
+        "containerName": "LOOTCONTAINER_MEDICAL_SUPPLY_CRATE"
+      }
+    ]
+  }
+}
