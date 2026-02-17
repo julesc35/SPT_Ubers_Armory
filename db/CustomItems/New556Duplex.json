@@ -6,29 +6,29 @@
     "overrideProperties": {
       "BackgroundColor": "violet",
       "ammoAccr": -2,
-      "ammoRec": 5,
+      "ammoRec": -2,
       "ArmorDamage": 39,
       "Caliber": "Caliber556x45mm",
       "CanRequireOnRagfair": true,
       "CanSellOnRagfair": true,
-      "Damage": 60,
+      "Damage": 45,
       "DurabilityBurnModificator": 1.75,
       "ExaminedByDefault": true,
       "FragmentationChance": 0.85,
       "ProjectilesCount":  2,
       "FragmentsCount": 0,
-      "HeatFactor": 1.85,
+      "HeatFactor": 1.65,
       "HeavyBleedingDelta": 0.1,
       "InitialSpeed": 750,
-      "LightBleedingDelta": 0.45,
+      "LightBleedingDelta": 0.2,
       "MalfFeedChance": 0.012,
       "MalfMisfireChance": 0.15,
-      "MaxFragmentsCount": 5,
-      "MinFragmentsCount": 2,
+      "MaxFragmentsCount": 4,
+      "MinFragmentsCount": 1,
       "MisfireChance": 0.012,
       "PenetrationChanceObstacle": 0.22,
       "PenetrationDamageMod": 0.17,
-      "PenetrationPower": 18,
+      "PenetrationPower": 30,
       "RicochetChance": 0.1,
       "Tracer": true,
       "TracerColor": "red"
@@ -54,27 +54,31 @@
       "staticLootContainers": [
         {
           "containerName": "LOOTCONTAINER_DEAD_SCAV",
-          "probability": 615
+          "probability": 650
         },
         {
           "containerName": "LOOTCONTAINER_DEAD_SCAV_4X4_2",
-          "probability": 615
+          "probability": 650
         },
         {
           "containerName": "LOOTCONTAINER_PMC_BODY",
-          "probability": 615
+          "probability": 650
         },
         {
           "containerName": "LOOTCONTAINER_SCAV_BODY",
-          "probability": 615
+          "probability": 650
         },
         {
           "containerName": "LOOTCONTAINER_WOODEN_AMMO_BOX",
-          "probability": 615
+          "probability": 650
         },
         {
           "containerName": "LOOTCONTAINER_WOODEN_AMMO_BOX_3X3_2",
-          "probability": 615
+          "probability": 650
+        },
+        {
+          "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+          "probability": 650
         }
       ]
     }

@@ -1,52 +1,52 @@
 {
-  "6993413e94183eca51706516": {
-    "itemTplToClone": "59e6918f86f7746c9f75e849",
+  "6994315751513cae07b0b0ad": {
+    "itemTplToClone": "5e023cf8186a883be655e54f",
     "parentId": "5485a8684bdc2da71d8b4567",
     "handbookParentId": "5b47574386f77428ca22b33b",
     "overrideProperties": {
       "BackgroundColor": "violet",
-      "ammoAccr": 3,
-      "ammoRec": 5,
-      "ArmorDamage": 6,
-      "Caliber": "Caliber556x45mm",
+      "ammoAccr": 10,
+      "ammoRec": 15,
+      "ArmorDamage": 85,
+      "Caliber": "Caliber762x54R",
       "CanRequireOnRagfair": true,
       "CanSellOnRagfair": true,
-      "Damage": 75,
-      "DurabilityBurnModificator": 1.75,
+      "Damage": 100,
+      "DurabilityBurnModificator": 1.9,
       "ExaminedByDefault": true,
       "FragmentationChance": 1.0,
       "ProjectilesCount": 1,
-      "FragmentsCount": 15,
+      "FragmentsCount": 0,
       "HeatFactor": 1.85,
-      "HeavyBleedingDelta": 0.60,
-      "InitialSpeed": 750,
-      "LightBleedingDelta": 0.45,
+      "HeavyBleedingDelta": 0.15,
+      "InitialSpeed": 980,
+      "LightBleedingDelta": 0.5,
       "MalfFeedChance": 0.012,
       "MalfMisfireChance": 0.15,
-      "MaxFragmentsCount": 10,
-      "MinFragmentsCount": 6,
+      "MaxFragmentsCount": 2,
+      "MinFragmentsCount": 0,
       "MisfireChance": 0.012,
-      "PenetrationChanceObstacle": 0.22,
+      "PenetrationChanceObstacle": 0.6,
       "PenetrationDamageMod": 0.17,
-      "PenetrationPower": 18,
+      "PenetrationPower": 90,
       "RicochetChance": 0.3,
       "Tracer": false,
-      "TracerColor": "red"
+      "TracerColor": "green"
 
     },
     "locales": {
       "en": {
-        "name": "5.56x45 mm RIP round",
-        "shortName": "556RIP",
-        "description": "A RIP Variant round for the 556mm round"
+        "name": "7,62x54mmR X round",
+        "shortName": "762X",
+        "description": "An experimental 7,62x54 ammo"
       }
     },
-    "fleaPriceRoubles": 2850,
-    "handbookPriceRoubles": 1450,
+    "fleaPriceRoubles": 35550,
+    "handbookPriceRoubles": 45250,
     "addtoBots": true,
     "addCaliberToAllCloneLocations": true,
     "addtoStaticAmmo": true,
-    "staticAmmoProbability": 1344,
+    "staticAmmoProbability": 1620,
     "addtoModSlots": false,
     "addtoStaticLootContainers": true,
     "addtoTraders": true,
@@ -54,31 +54,31 @@
     "staticLootContainers": [
       {
         "containerName": "LOOTCONTAINER_DEAD_SCAV",
-        "probability": 650
+        "probability": 950
       },
       {
         "containerName": "LOOTCONTAINER_DEAD_SCAV_4X4_2",
-        "probability": 650
+        "probability": 950
       },
       {
         "containerName": "LOOTCONTAINER_PMC_BODY",
-        "probability": 650
+        "probability": 950
       },
       {
         "containerName": "LOOTCONTAINER_SCAV_BODY",
-        "probability": 650
+        "probability": 950
       },
       {
         "containerName": "LOOTCONTAINER_WOODEN_AMMO_BOX",
-        "probability": 650
+        "probability": 950
       },
       {
         "containerName": "LOOTCONTAINER_WOODEN_AMMO_BOX_3X3_2",
-        "probability": 650
+        "probability": 950
       },
       {
         "containerName": "LOOTCONTAINER_WOODEN_CRATE",
-        "probability": 650
+        "probability": 950
       }
     ]
   }
